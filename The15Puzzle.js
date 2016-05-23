@@ -3,8 +3,7 @@ $(function() {
     var array1; //Массив для проверки на победу
     var col;var row;//Переменные для определения координат пустого блока
     var row1;var col1;//Переменные для определения координат нажатого блока
-    var width=screen.width; var height=screen.height;//Ширина и высота экрана
-    var blockSize=width*0.051;//Размеры блоков
+    var blockSize=70;
 
     function step(direction){
          //Определяем индекс пустого блока в массиве
